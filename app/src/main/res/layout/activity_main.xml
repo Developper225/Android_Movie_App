@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.movie_info.activity.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_main_greeting_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="306dp"
+        android:padding="20dp"
+        android:text="Bienvenue dans l'aplli qui te teste  ! "
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/activity_main_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Entre ton nom" />
+
+    <Button
+        android:id="@+id/activity_main_play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:text="C'est parti" />
+
+
+
+</LinearLayout>
